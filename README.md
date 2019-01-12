@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## my-video-player
+
+This is a UI assignment for Full Stack Developer Course held by IIHT for Cognizant
+
+The goal is to create a video player with the following Functionalities
+
+## Functionalities
+
+1. <The functionalities details will be update in future commit>
+

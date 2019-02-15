@@ -1,1 +1,143 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    color:#fff;
+}
+
+
+.player-ctrl-wrapper
+{
+    /* min-height: 400px; */
+}
+.player-wrapper{
+    min-height:480px;
+    background: rgb(56, 56, 56);
+}
+.player-wrapper video::-webkit-media-controls {
+    display: none;
+}
+.mt-n40{
+    margin-top: -40px;
+}
+video {
+    width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+}
+input[type=range].volslider {
+    -webkit-appearance: none;
+    width: 100%;
+    margin: 7.2px 0;
+  }
+  input[type=range].volslider:focus {
+    outline: none;
+  }
+  input[type=range].volslider::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 1.6px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #fff;
+    border-radius: 18.1px;
+    border: 0px solid #010101;
+  }
+  input[type=range].volslider::-webkit-slider-thumb {
+    box-shadow: 0px 0px 1px #670000, 0px 0px 0px #810000;
+    border: 0px solid #ff1e00;
+    height: 16px;
+    width: 17px;
+    border-radius: 50px;
+    background: #fff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7.2px;
+  }
+  input[type=range].volslider:focus::-webkit-slider-runnable-track {
+    background: #fff;
+  }
+  input[type=range].volslider::-moz-range-track {
+    width: 100%;
+    height: 1.6px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #3b4d4d;
+    border-radius: 18.1px;
+    border: 0px solid #010101;
+  }
+  input[type=range].volslider::-moz-range-thumb {
+    box-shadow: 0px 0px 1px #670000, 0px 0px 0px #810000;
+    border: 0px solid #ff1e00;
+    height: 16px;
+    width: 17px;
+    border-radius: 50px;
+    background: #ff0000;
+    cursor: pointer;
+  }
+  input[type=range].volslider::-ms-track {
+    width: 100%;
+    height: 1.6px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  input[type=range].volslider::-ms-fill-lower {
+    background: #273333;
+    border: 0px solid #010101;
+    border-radius: 36.2px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  }
+  input[type=range].volslider::-ms-fill-upper {
+    background: #3b4d4d;
+    border: 0px solid #010101;
+    border-radius: 36.2px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  }
+  input[type=range].volslider::-ms-thumb {
+    box-shadow: 0px 0px 1px #670000, 0px 0px 0px #810000;
+    border: 0px solid #ff1e00;
+    height: 16px;
+    width: 17px;
+    border-radius: 50px;
+    background: #ff0000;
+    cursor: pointer;
+    height: 1.6px;
+  }
+  input[type=range].volslider:focus::-ms-fill-lower {
+    background: #3b4d4d;
+  }
+  input[type=range].volslider:focus::-ms-fill-upper {
+    background: #4f6767;
+  }
+
+
+
+
+
+
+
+
+.controls-wrapper{
+    height: 40px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.controls-wrapper img{
+    width:24px;
+    height: 24px;
+    margin: 8px 10px;
+}
+.controls-wrapper img:hover{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.playlist-wrapper{
+    min-height: 400px;
+    background: rgb(57, 73, 0);
+}

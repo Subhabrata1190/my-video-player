@@ -1,0 +1,24 @@
+<div class="player-ctrl-wrapper">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="player-wrapper">
+            <video controls #video_player_control id="video_player_control" (loadedmetadata)="processMetaData(video_player_control)">
+              <source src="https://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+              <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+  
+                <source src="/assets/video/SV_1280x720.mp4" type="video/mp4">
+                <source src="https://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+                <source src="https://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+  
+                <source src="http://media.w3.org/2010/05/bunny/trailer.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+        </div>
+      </div>
+      <div class="col-sm-12 mt-n40">
+        <player-controls (controlClicked)="handleControlClicked($event, video_player_control)"></player-controls>
+      </div>
+    </div>
+  </div>
+</div>

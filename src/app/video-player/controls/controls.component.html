@@ -1,0 +1,9 @@
+<div class="controls-wrapper">
+  <div class="row">
+    <div class="col-sm-1"><img src="{{videoPlaying? '/assets/images/pause.svg' : '/assets/images/play.svg'}}" (click)="emitEvent('playpause')"></div>
+    <div class="col-sm-1"><img src="/assets/images/reload.svg" (click)="emitEvent('reload')"></div>
+    <div class="col-sm-4"><img src="{{isMuted? '/assets/images/mute.svg' : '/assets/images/volume_up.svg'}}" (click)="emitEvent('volume_change')">
+      <input #volumerange class="volslider" style="width: 100px;position: relative; bottom: 3px;left: 0px;" type="range" min="0" max="100" value="80" (input)="emitEvent('seekvolume', volumerange)">
+    </div>
+  </div>
+</div>
